@@ -4,4 +4,9 @@
     <Button text="Hi"
         press=".onShowHello"
     ></Button>
+    <Input
+        value="{/recipient/name}"
+        description="Hello {/recipient/name}"
+        valueLiveUpdate="true"
+        width="60%"></Input>
 </mvc:View>
